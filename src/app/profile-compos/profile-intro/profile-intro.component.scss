@@ -1,0 +1,31 @@
+.section {
+  display: flex;
+  height: 60rem;
+}
+
+.section img {
+  margin-left: auto;
+  margin-right: 2rem;
+  height: 32rem;
+  width: 32rem;
+}
+
+.title {
+  margin: 0 0 0.5em;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 3rem;
+  line-height: 3.5rem;
+  margin: 10rem 0 0 2rem;
+  padding: 1rem;
+  color: #363636;
+}
+
+.title:hover {
+  background-image: var(--gradient);
+  background-clip: text;
+  color: transparent;
+  background-size: 400%;
+  background-position: right;
+  // transition: background-position 1s;
+}

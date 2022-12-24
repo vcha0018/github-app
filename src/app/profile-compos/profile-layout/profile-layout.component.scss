@@ -1,0 +1,17 @@
+.layout-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.layout-section {
+  border: 1px solid #aaaaaa;
+  border-radius: 4px;
+}
+
+.scroll-tracker {
+  position: fixed;
+  inset: 0 0 auto;
+  height: 0.5rem;
+  background-color: #ee6352;
+}
